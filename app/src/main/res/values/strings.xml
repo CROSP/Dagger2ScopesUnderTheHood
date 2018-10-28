@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dagger2ScopeInternals</string>
+    <string name="button_second_fragment">Switch to second fragment</string>
+    <string name="text_first_main_fragment">Hi there, I am the first fragment of the Main Screen</string>
+    <string name="text_first_secondary_fragment">HI, I am the First Fragment of the Secondary Screen</string>
+    <string name="button_to_main_activity">Switch to main activity</string>
+    <string name="button_to_secondary_activity">Switch to secondary activity</string>
+</resources>
