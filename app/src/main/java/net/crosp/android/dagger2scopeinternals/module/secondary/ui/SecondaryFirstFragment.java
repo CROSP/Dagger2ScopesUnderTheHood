@@ -2,11 +2,11 @@ package net.crosp.android.dagger2scopeinternals.module.secondary.ui;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.view.View;
 import android.widget.Button;
 
 import net.crosp.android.dagger2scopeinternals.R;
 import net.crosp.android.dagger2scopeinternals.base.ui.fragment.BaseFragment;
+import net.crosp.android.dagger2scopeinternals.module.secondary.di.components.SecondaryScreenComponent;
 
 import javax.inject.Inject;
 
@@ -16,7 +16,7 @@ import butterknife.OnClick;
 /**
  * A placeholder fragment containing a simple view.
  */
-public class MainFirstFragment extends BaseFragment {
+public class SecondaryFirstFragment extends BaseFragment {
     // Views
     @BindView(R.id.button_second_fragment)
     Button mSecondFragmentButton;
@@ -25,7 +25,7 @@ public class MainFirstFragment extends BaseFragment {
     @Inject
     SecondFragmentRouter mRouter;
 
-    public MainFirstFragment() {
+    public SecondaryFirstFragment() {
     }
 
     //================================================================================
@@ -34,22 +34,18 @@ public class MainFirstFragment extends BaseFragment {
 
     @Override
     public int getFragmentLayoutId() {
-        return R.layout.fragment_main_first;
+        return R.layout.fragment_secondary_first;
     }
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // Injecting dependencies
-      //  this.getComponent(MainFirstViewComponent.class).inject(this);
-
+        this.getComponent(SecondaryScreenComponent.class)
+                .plusMainFirstViewComponent()
+                .inject(this);
     }
 
-
-    @Override
-    public void onViewCreated(View view, Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-    }
 
     //================================================================================
     // View implementation
@@ -57,11 +53,19 @@ public class MainFirstFragment extends BaseFragment {
 
     @OnClick(R.id.button_second_fragment)
     void switchToSecondFragment() {
-
+        mRouter.onSwitchToSecondFragment();
     }
 
+    @OnClick(R.id.button_main_activity)
+    void switchBackToMainActivity() {
+        mRouter.onSwitchBackToMainActivity();
+    }
+
+
     public interface SecondFragmentRouter {
-        void onSwitchToSecondFragmentRequested();
+        void onSwitchToSecondFragment();
+
+        void onSwitchBackToMainActivity();
     }
 }
 

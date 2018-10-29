@@ -6,6 +6,9 @@ import android.support.v7.widget.Toolbar;
 
 import net.crosp.android.dagger2scopeinternals.R;
 import net.crosp.android.dagger2scopeinternals.base.ui.activity.BaseSingleFragmentActivity;
+import net.crosp.android.dagger2scopeinternals.di.contract.ProvidesComponent;
+import net.crosp.android.dagger2scopeinternals.module.main.di.components.MainScreenComponent;
+import net.crosp.android.dagger2scopeinternals.module.secondary.ui.SecondaryActivity;
 import net.crosp.android.dagger2scopeinternals.module.shareddependencies.contract.CarDataRepositoryContract;
 
 import javax.inject.Inject;
@@ -13,7 +16,7 @@ import javax.inject.Inject;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MainActivity extends BaseSingleFragmentActivity implements MainFirstFragment.SecondFragmentRouter {
+public class MainActivity extends BaseSingleFragmentActivity implements ProvidesComponent<MainScreenComponent>, MainFirstFragment.SecondFragmentRouter, MainSecondFragment.FirstFragmentRouter {
     @Inject
     CarDataRepositoryContract mCarRepoOther;
     // Views
@@ -22,6 +25,7 @@ public class MainActivity extends BaseSingleFragmentActivity implements MainFirs
     // UI Variables
     ActionBar mActionBar;
 
+    MainScreenComponent mMainScreenComponent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,9 +38,8 @@ public class MainActivity extends BaseSingleFragmentActivity implements MainFirs
     }
 
     private void injectDependencies() {
-        mAppComponent.inject(this);
-        System.out.println(mCarRepoOther);
-        mAppComponent.inject(this);
+        mMainScreenComponent = mActivityComponent.plusMainScreenComponent();
+        mMainScreenComponent.inject(this);
     }
 
     private void initUI() {
@@ -50,6 +53,11 @@ public class MainActivity extends BaseSingleFragmentActivity implements MainFirs
     protected void initToolbar() {
         setSupportActionBar(mMainToolbar);
         mActionBar = getSupportActionBar();
+    }
+
+    @Override
+    public MainScreenComponent getComponent() {
+        return mMainScreenComponent;
     }
     // Layout configuration
 
@@ -75,7 +83,19 @@ public class MainActivity extends BaseSingleFragmentActivity implements MainFirs
 
     // Routing
     @Override
-    public void onSwitchToSecondFragmentRequested() {
-
+    public void onSwitchToSecondFragment() {
+        replaceFragment(MainSecondFragment.class, false);
     }
+
+    @Override
+    public void onSwitchBackToFirstFragment() {
+        replaceFragment(MainFirstFragment.class, false);
+    }
+
+    @Override
+    public void switchToSecondaryActivity() {
+        startNewActivity(SecondaryActivity.class);
+    }
+
+
 }

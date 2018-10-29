@@ -5,4 +5,7 @@
     <string name="text_first_secondary_fragment">HI, I am the First Fragment of the Secondary Screen</string>
     <string name="button_to_main_activity">Switch to main activity</string>
     <string name="button_to_secondary_activity">Switch to secondary activity</string>
+    <string name="button_back_to_first_fragment">Back to first fragment</string>
+    <string name="text_second_main_fragment">Welcome to the Second Main Fragment</string>
+    <string name="text_second_secondary_fragment">Hi, I am the Second Secondary fragment</string>
 </resources>

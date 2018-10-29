@@ -6,21 +6,26 @@ import android.support.v7.widget.Toolbar;
 
 import net.crosp.android.dagger2scopeinternals.R;
 import net.crosp.android.dagger2scopeinternals.base.ui.activity.BaseSingleFragmentActivity;
+import net.crosp.android.dagger2scopeinternals.di.contract.ProvidesComponent;
+import net.crosp.android.dagger2scopeinternals.module.main.ui.MainActivity;
+import net.crosp.android.dagger2scopeinternals.module.secondary.di.components.SecondaryScreenComponent;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class SecondaryActivity extends BaseSingleFragmentActivity implements MainFirstFragment.SecondFragmentRouter {
+public class SecondaryActivity extends BaseSingleFragmentActivity implements ProvidesComponent<SecondaryScreenComponent>, SecondaryFirstFragment.SecondFragmentRouter, SecondarySecondFragment.FirstFragmentRouter {
     // Views
     @BindView(R.id.toolbar_main)
     Toolbar mMainToolbar;
     // UI Variables
     ActionBar mActionBar;
+    private SecondaryScreenComponent mSecondaryScreenComponent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // Inject views
+        injectDependencies();
         ButterKnife.bind(this);
         initUI();
         navigateToInitialScreen();
@@ -30,8 +35,13 @@ public class SecondaryActivity extends BaseSingleFragmentActivity implements Mai
         initToolbar();
     }
 
+    private void injectDependencies() {
+        mSecondaryScreenComponent = mActivityComponent.plusSecondaryScreenComponent();
+        mSecondaryScreenComponent.inject(this);
+    }
+
     public void navigateToInitialScreen() {
-        replaceFragment(MainFirstFragment.class, false);
+        replaceFragment(SecondaryFirstFragment.class, false);
     }
 
     protected void initToolbar() {
@@ -60,9 +70,28 @@ public class SecondaryActivity extends BaseSingleFragmentActivity implements Mai
         return R.id.linear_layout_content;
     }
 
-    // Routing
     @Override
-    public void onSwitchToSecondFragmentRequested() {
+    public void onSwitchToSecondFragment() {
+        replaceFragment(SecondarySecondFragment.class, false);
 
     }
+
+    @Override
+    public void onSwitchBackToMainActivity() {
+        startNewActivity(MainActivity.class);
+    }
+
+    @Override
+    public void onSwitchToFirstFragment() {
+        replaceFragment(SecondaryFirstFragment.class, false);
+
+    }
+
+    @Override
+    public SecondaryScreenComponent getComponent() {
+        return mSecondaryScreenComponent;
+    }
+
+    // Routing
+
 }

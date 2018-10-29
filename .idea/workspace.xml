@@ -14,7 +14,45 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23c816f2-01fd-4fa7-b916-0bb04be26aa2" name="Default" comment="" />
+    <list default="true" id="23c816f2-01fd-4fa7-b916-0bb04be26aa2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/activity/ActivityComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/activity/module/ActivityModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/components/MainFirstViewComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/components/MainScreenComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/components/MainSecondViewComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/modules/MainFirstFragmentModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/modules/MainScreenModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/modules/MainSecondFragmentModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/ui/MainSecondFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/di/components/SecondaryFirstViewComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/di/components/SecondaryScreenComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/di/components/SecondarySecondViewComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/di/modules/SecondaryFirstFragmentModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/di/modules/SecondaryScreenModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/di/modules/SecondarySecondFragmentModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/ui/SecondarySecondFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_secondary_second.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/ApplicationComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/ApplicationComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/ui/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/ui/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/ui/MainFirstFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/ui/MainFirstFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/ui/MainFirstFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/ui/SecondaryFirstFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/ui/SecondaryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/ui/SecondaryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main_first.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main_first.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main_second.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main_second.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,103 +74,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ApplicationModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/module/ApplicationModule.java">
+      <file leaf-file-name="MainScreenComponent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/components/MainScreenComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-              <folding>
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#1001#1002#0" expanded="true" />
-                <element signature="e#1056#1057#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_main_first.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main_first.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state />
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content_toolbar_single_fragment.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_toolbar_single_fragment.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toolbar_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/toolbar_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseMultipleFragmentActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseMultipleFragmentActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="e#947#948#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/ui/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            <state relative-caret-position="680">
+              <caret line="84" selection-start-line="84" selection-end-line="98" />
               <folding>
-                <element signature="e#1107#1108#0" expanded="true" />
-                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1646#1647#0" expanded="true" />
+                <element signature="e#1675#1676#0" expanded="true" />
+                <element signature="e#1720#1721#0" expanded="true" />
+                <element signature="e#1783#1784#0" expanded="true" />
+                <element signature="e#1975#1976#0" expanded="true" />
+                <element signature="e#2018#2019#0" expanded="true" />
+                <element signature="e#2559#2560#0" expanded="true" />
+                <element signature="e#2623#2624#0" expanded="true" />
+                <element signature="e#2686#2687#0" expanded="true" />
+                <element signature="e#2749#2750#0" expanded="true" />
+                <element signature="e#2810#2811#0" expanded="true" />
+                <element signature="e#2867#2868#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationUnscopedModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/module/ApplicationUnscopedModule.java">
+      <file leaf-file-name="MainFirstFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/ui/MainFirstFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="170">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding>
+                <element signature="e#1664#1665#0" expanded="true" />
+                <element signature="e#1714#1715#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dagger2ScopeInternalsApplication.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainSecondFragmentModule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/modules/MainSecondFragmentModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainScreenModule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/modules/MainScreenModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="15" selection-start-line="15" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dagger2ScopeInternalsApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/Dagger2ScopeInternalsApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="510">
+              <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="36" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,19 +149,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Instrumentation.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/app/Instrumentation.class">
+      <file leaf-file-name="MainFirstFragmentModule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/modules/MainFirstFragmentModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="195" column="58" selection-start-line="195" selection-start-column="58" selection-end-line="195" selection-end-column="58" />
+            <state relative-caret-position="255">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivityComponent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/activity/ActivityComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
-                <element signature="e#5681#5682#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivityModule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/activity/module/ActivityModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="21" selection-start-line="21" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaggerApplicationComponent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/net/crosp/android/dagger2scopeinternals/di/component/application/DaggerApplicationComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="653">
+              <caret line="244" column="38" selection-start-line="244" selection-start-column="38" selection-end-line="244" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -2429,14 +2471,34 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/ApplicationComponent.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/module/ApplicationModule.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_toolbar_single_fragment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/toolbar_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/module/ApplicationUnscopedModule.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/Dagger2ScopeInternalsApplication.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/di/components/SecondaryFirstViewComponent.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/di/components/SecondaryScreenComponent.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/components/MainScreenComponent.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/activity/module/ActivityModule.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/activity/module/ActivityModule.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/ApplicationComponent.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/apt/debug/net/crosp/android/dagger2scopeinternals/module/main/ui/MainSecondFragment_MembersInjector.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/components/MainSecondViewComponent.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/modules/MainSecondFragmentModule.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/di/modules/SecondarySecondFragmentModule.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/di/components/SecondarySecondViewComponent.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/ui/SecondaryActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_main_first.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_main_second.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/ui/MainSecondFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/ui/SecondaryFirstFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/ui/MainFirstFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_secondary_second.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/ui/SecondarySecondFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/activity/ActivityComponent.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/apt/debug/net/crosp/android/dagger2scopeinternals/di/component/application/DaggerApplicationComponent.java" />
       </list>
     </option>
   </component>
@@ -2445,6 +2507,7 @@
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -2463,7 +2526,236 @@
             <path>
               <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="secondary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="secondary" type="462c0819:PsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="secondary" type="462c0819:PsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="secondary" type="462c0819:PsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="secondary" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="net" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crosp" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger2scopeinternals" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="shareddependencies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="Dagger2ScopeInternals" type="1abcf292:AndroidViewProjectNode" />
@@ -2484,11 +2776,29 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="D&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/Dagger2ScopeInternalsApplication.java&#10;Bas&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseActivity.java&#10;Ba&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseActivity.java&#10;Base&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseActivity.java&#10;Da&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/Dagger2ScopeInternalsApplication.java&#10;Un&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/module/ApplicationUnscopedModule.java&#10;\&#9;null&#9;null&#10;Main&#9;PSI&#9;JAVA://net.crosp.android.dagger2scopeinternals.module.main.ui.MainActivity&#10;Uns&#9;PSI&#9;JAVA://net.crosp.android.dagger2scopeinternals.di.component.application.module.ApplicationUnscopedModule&#10;Application&#9;PSI&#9;JAVA://net.crosp.android.dagger2scopeinternals.di.component.application.module.ApplicationModule&#10;APPL&#9;ACTION&#9;ChangesView.ApplyPatch" />
+    <property name="SearchEverywhereHistoryKey" value="BaseAc&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseActivity.java&#10;Appl&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/Dagger2ScopeInternalsApplication.java&#10;Ap&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/build/generated/source/apt/debug/net/crosp/android/dagger2scopeinternals/di/component/application/DaggerApplicationComponent.java&#10;MainAc&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/ui/MainActivity.java&#10;BaseA&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseActivity.java&#10;Applica&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/ApplicationComponent.java&#10;Dagger&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/build/generated/source/apt/debug/net/crosp/android/dagger2scopeinternals/di/component/application/DaggerApplicationComponent.java&#10;Base&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseActivity.java&#10;Applicat&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/ApplicationComponent.java&#10;D&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/Dagger2ScopeInternalsApplication.java&#10;Bas&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseActivity.java&#10;Ba&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseActivity.java&#10;Da&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/Dagger2ScopeInternalsApplication.java&#10;Un&#9;FILE&#9;file:///Volumes/WorkHard/Development/Android/Dagger2ScopeInternals/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/module/ApplicationUnscopedModule.java&#10;\&#9;null&#9;null&#10;Main&#9;PSI&#9;JAVA://net.crosp.android.dagger2scopeinternals.module.main.ui.MainActivity&#10;Uns&#9;PSI&#9;JAVA://net.crosp.android.dagger2scopeinternals.di.component.application.module.ApplicationUnscopedModule&#10;Application&#9;PSI&#9;JAVA://net.crosp.android.dagger2scopeinternals.di.component.application.module.ApplicationModule&#10;APPL&#9;ACTION&#9;ChangesView.ApplyPatch" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="device.picker.selection" value="Nexus_7_API_22" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.genymobile.genymotion.ide.idea.GdmSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="net.crosp.android.dagger2scopeinternals.di.component" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.crosp.android.dagger2scopeinternals.module.main.ui" />
+      <recent name="net.crosp.android.dagger2scopeinternals.module.main.di.components" />
+      <recent name="net.crosp.android.dagger2scopeinternals.module.main.di.modules" />
+      <recent name="net.crosp.android.dagger2scopeinternals.module.secondary.di.components" />
+      <recent name="net.crosp.android.dagger2scopeinternals.module.secondary.di.modules" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2649,27 +2959,28 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" />
+      <window_info id="Build Variants" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.46235138" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32893" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989432" />
+      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="simpleUML" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Preview" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Logcat" order="7" weight="0.7424042" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32893" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32893" />
       <window_info id="Captures" order="2" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32893" />
       <window_info anchor="right" id="Gradle" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989432" />
-      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -2678,7 +2989,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2694,56 +3004,33 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/ui/MainActivity.java</url>
-          <line>36</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/ui/SecondaryActivity.java</url>
+          <line>89</line>
           <properties />
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/ApplicationComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/module/ApplicationModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding>
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseMultipleFragmentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#947#948#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#1720#1721#0" expanded="true" />
+            <element signature="e#1783#1784#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2018#2019#0" expanded="true" />
+            <element signature="e#2559#2560#0" expanded="true" />
+            <element signature="e#2623#2624#0" expanded="true" />
+            <element signature="e#2686#2687#0" expanded="true" />
+            <element signature="e#2749#2750#0" expanded="true" />
+            <element signature="e#2810#2811#0" expanded="true" />
+            <element signature="e#2867#2868#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2776,6 +3063,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2784,24 +3074,6 @@
         <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/ApplicationComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main_first.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_toolbar_single_fragment.xml">
@@ -2827,13 +3099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/module/ApplicationUnscopedModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/toolbar_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -2844,29 +3109,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseMultipleFragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#947#948#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/Dagger2ScopeInternalsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2881,13 +3129,364 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/net/crosp/android/dagger2scopeinternals/di/component/Dagger2ScopeInternalsApplication_MembersInjector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/shareddependencies/contract/CarDataRepositoryContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar!/javax/inject/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/module/ApplicationUnscopedModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseActivity_MembersInjector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/net/crosp/android/dagger2scopeinternals/module/main/ui/MainActivity_MembersInjector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/net/crosp/android/dagger2scopeinternals/di/component/application/module/ApplicationUnscopedModule_ProvideCarDataRepositoryFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseSingleFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/activity/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="64" column="90" selection-start-line="64" selection-start-column="90" selection-end-line="64" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/net/crosp/android/dagger2scopeinternals/module/main/ui/MainSecondFragment_MembersInjector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/di/components/SecondarySecondViewComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/di/modules/SecondaryScreenModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/di/modules/SecondarySecondFragmentModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/di/modules/SecondaryFirstFragmentModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/application/ApplicationComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_secondary_first.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="45" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/components/MainSecondViewComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/fragment/BaseDIFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/base/ui/fragment/BaseFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/net/crosp/android/dagger2scopeinternals/module/main/ui/MainSecondFragment_ViewBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main_first.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main_second.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="50" />
+          <folding>
+            <element signature="e#1267#1305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/ui/MainSecondFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1717#1718#0" expanded="true" />
+            <element signature="e#1785#1786#0" expanded="true" />
+            <element signature="e#1838#1839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/ui/SecondaryFirstFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+          <folding>
+            <element signature="e#1702#1703#0" expanded="true" />
+            <element signature="e#1724#1725#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+            <element signature="e#1882#1883#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/ui/SecondaryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+          <folding>
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1796#1797#0" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="e#2090#2091#0" expanded="true" />
+            <element signature="e#2415#2416#0" expanded="true" />
+            <element signature="e#2442#2443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_secondary_second.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="e#530#570#0" expanded="true" />
+            <element signature="e#956#995#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/ui/SecondarySecondFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/di/components/SecondaryScreenComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/secondary/di/components/SecondaryFirstViewComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/components/MainFirstViewComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/ui/MainFirstFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1714#1715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/modules/MainSecondFragmentModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/modules/MainFirstFragmentModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/modules/MainScreenModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" selection-start-line="15" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/di/components/MainScreenComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/module/main/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="680">
+          <caret line="84" selection-start-line="84" selection-end-line="98" />
           <folding>
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#1720#1721#0" expanded="true" />
+            <element signature="e#1783#1784#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2018#2019#0" expanded="true" />
+            <element signature="e#2559#2560#0" expanded="true" />
+            <element signature="e#2623#2624#0" expanded="true" />
+            <element signature="e#2686#2687#0" expanded="true" />
+            <element signature="e#2749#2750#0" expanded="true" />
+            <element signature="e#2810#2811#0" expanded="true" />
+            <element signature="e#2867#2868#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/activity/ActivityComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/activity/module/ActivityModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" selection-start-line="21" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/net/crosp/android/dagger2scopeinternals/di/component/application/DaggerApplicationComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="244" column="38" selection-start-line="244" selection-start-column="38" selection-end-line="244" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/crosp/android/dagger2scopeinternals/di/component/Dagger2ScopeInternalsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="36" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

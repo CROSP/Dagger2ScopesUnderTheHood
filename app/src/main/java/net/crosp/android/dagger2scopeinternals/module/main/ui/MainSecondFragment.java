@@ -16,16 +16,16 @@ import butterknife.OnClick;
 /**
  * A placeholder fragment containing a simple view.
  */
-public class MainFirstFragment extends BaseFragment {
+public class MainSecondFragment extends BaseFragment {
     // Views
-    @BindView(R.id.button_second_fragment)
-    Button mSecondFragmentButton;
+    @BindView(R.id.button_first_fragment)
+    Button mFirstFragmentButton;
 
     // Callbacks
     @Inject
-    SecondFragmentRouter mRouter;
+    FirstFragmentRouter mRouter;
 
-    public MainFirstFragment() {
+    public MainSecondFragment() {
     }
 
     //================================================================================
@@ -34,7 +34,7 @@ public class MainFirstFragment extends BaseFragment {
 
     @Override
     public int getFragmentLayoutId() {
-        return R.layout.fragment_main_first;
+        return R.layout.fragment_main_second;
     }
 
     @Override
@@ -42,22 +42,30 @@ public class MainFirstFragment extends BaseFragment {
         super.onCreate(savedInstanceState);
         // Injecting dependencies
         this.getComponent(MainScreenComponent.class)
-                .plusMainFirstViewComponent()
+                .plusMainSecondViewComponent()
                 .inject(this);
 
     }
+
 
     //================================================================================
     // View implementation
     //================================================================================
 
-    @OnClick(R.id.button_second_fragment)
-    void switchToSecondFragment() {
-        mRouter.onSwitchToSecondFragment();
+    @OnClick(R.id.button_first_fragment)
+    void switchToFirstFragment() {
+        mRouter.onSwitchBackToFirstFragment();
     }
 
-    public interface SecondFragmentRouter {
-        void onSwitchToSecondFragment();
+    @OnClick(R.id.button_secondary_activity)
+    void switchToSecondaryActivity() {
+        mRouter.switchToSecondaryActivity();
+    }
+
+    public interface FirstFragmentRouter {
+        void onSwitchBackToFirstFragment();
+
+        void switchToSecondaryActivity();
     }
 }
 

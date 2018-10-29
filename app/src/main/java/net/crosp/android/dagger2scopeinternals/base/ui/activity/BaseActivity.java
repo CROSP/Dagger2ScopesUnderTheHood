@@ -11,11 +11,15 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
 import net.crosp.android.dagger2scopeinternals.base.ui.contract.ActivityController;
+import net.crosp.android.dagger2scopeinternals.di.NamedConstants;
+import net.crosp.android.dagger2scopeinternals.di.component.activity.ActivityComponent;
+import net.crosp.android.dagger2scopeinternals.di.component.activity.module.ActivityModule;
 import net.crosp.android.dagger2scopeinternals.di.component.application.ApplicationComponent;
 import net.crosp.android.dagger2scopeinternals.di.contract.ProvidesComponent;
 import net.crosp.android.dagger2scopeinternals.module.shareddependencies.contract.CarDataRepositoryContract;
 
 import javax.inject.Inject;
+import javax.inject.Named;
 
 /**
  * Created by Alexander Molochko on 12/12/2016.
@@ -29,17 +33,12 @@ public abstract class BaseActivity extends AppCompatActivity implements Activity
     // Views
     protected ViewGroup mContentContainer;
     // Variables
-    //  @Inject
+    @Inject
     protected LayoutInflater mLayoutInflater;
-    /*   @Inject
-       @Named(NamedConstants.Fragment.SUPPORT_FRAGMENT_MANAGER)*/
+    @Inject
+    @Named(NamedConstants.Fragment.SUPPORT_FRAGMENT_MANAGER)
     protected FragmentManager mFragmentManager;
-    protected ApplicationComponent mAppComponent;
-
-    // Dagger dependency graph
-/*
     protected ActivityComponent mActivityComponent;
-*/
 
     //================================================================================
     // Lifecycle callbacks
@@ -62,8 +61,8 @@ public abstract class BaseActivity extends AppCompatActivity implements Activity
     }
 
     private void initDependencyComponents() {
-        mAppComponent = ((ProvidesComponent<ApplicationComponent>) getApplication()).getComponent();
-        mAppComponent.inject(this);
+        ApplicationComponent appComponent = ((ProvidesComponent<ApplicationComponent>) getApplication()).getComponent();
+        mActivityComponent = appComponent.plusActivityComponent(new ActivityModule(this));
     }
 
 /*    @Override
