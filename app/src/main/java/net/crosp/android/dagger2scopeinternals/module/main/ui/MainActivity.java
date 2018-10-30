@@ -7,18 +7,26 @@ import android.support.v7.widget.Toolbar;
 import net.crosp.android.dagger2scopeinternals.R;
 import net.crosp.android.dagger2scopeinternals.base.ui.activity.BaseSingleFragmentActivity;
 import net.crosp.android.dagger2scopeinternals.di.contract.ProvidesComponent;
+import net.crosp.android.dagger2scopeinternals.module.main.MainScreenDependencyContract;
 import net.crosp.android.dagger2scopeinternals.module.main.di.components.MainScreenComponent;
 import net.crosp.android.dagger2scopeinternals.module.secondary.ui.SecondaryActivity;
 import net.crosp.android.dagger2scopeinternals.module.shareddependencies.contract.CarDataRepositoryContract;
+import net.crosp.android.dagger2scopeinternals.module.shareddependencies.contract.GlobalEventNotifierContract;
+import net.crosp.android.dagger2scopeinternals.module.shareddependencies.implementation.SomeEvent;
 
 import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MainActivity extends BaseSingleFragmentActivity implements ProvidesComponent<MainScreenComponent>, MainFirstFragment.SecondFragmentRouter, MainSecondFragment.FirstFragmentRouter {
+public class MainActivity extends BaseSingleFragmentActivity implements ProvidesComponent<MainScreenComponent>, MainFirstFragment.SecondFragmentRouter, MainSecondFragment.FirstFragmentRouter, GlobalEventNotifierContract.EventListener<SomeEvent> {
     @Inject
     CarDataRepositoryContract mCarRepoOther;
+    @Inject
+    MainScreenDependencyContract mMainScreenDependency;
+
+    @Inject
+    GlobalEventNotifierContract<SomeEvent> mGlobalEventNotifier;
     // Views
     @BindView(R.id.toolbar_main)
     Toolbar mMainToolbar;
@@ -35,11 +43,22 @@ public class MainActivity extends BaseSingleFragmentActivity implements Provides
         ButterKnife.bind(this);
         initUI();
         navigateToInitialScreen();
+        setEventListeners();
+    }
+
+    private void setEventListeners() {
+        this.mGlobalEventNotifier.addListener(this);
     }
 
     private void injectDependencies() {
         mMainScreenComponent = mActivityComponent.plusMainScreenComponent();
         mMainScreenComponent.inject(this);
+    }
+
+
+    @Override
+    protected void onResume() {
+        super.onResume();
     }
 
     private void initUI() {
@@ -98,4 +117,8 @@ public class MainActivity extends BaseSingleFragmentActivity implements Provides
     }
 
 
+    @Override
+    public void onEvent(SomeEvent event) {
+        //
+    }
 }

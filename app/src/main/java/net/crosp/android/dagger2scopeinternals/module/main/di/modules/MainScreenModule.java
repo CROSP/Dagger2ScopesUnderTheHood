@@ -3,6 +3,8 @@ package net.crosp.android.dagger2scopeinternals.module.main.di.modules;
 import android.app.Activity;
 
 import net.crosp.android.dagger2scopeinternals.di.scope.PerScreen;
+import net.crosp.android.dagger2scopeinternals.module.main.MainScreenDependency;
+import net.crosp.android.dagger2scopeinternals.module.main.MainScreenDependencyContract;
 import net.crosp.android.dagger2scopeinternals.module.main.ui.MainActivity;
 
 import dagger.Module;
@@ -19,5 +21,11 @@ public class MainScreenModule {
     @PerScreen
     public MainActivity provideScreenActivity(Activity containerActivity) {
         return (MainActivity) containerActivity;
+    }
+
+    @Provides
+    @PerScreen
+    public MainScreenDependencyContract provideMainScreenDependency() {
+        return new MainScreenDependency();
     }
 }

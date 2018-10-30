@@ -9,11 +9,17 @@ import net.crosp.android.dagger2scopeinternals.base.ui.activity.BaseSingleFragme
 import net.crosp.android.dagger2scopeinternals.di.contract.ProvidesComponent;
 import net.crosp.android.dagger2scopeinternals.module.main.ui.MainActivity;
 import net.crosp.android.dagger2scopeinternals.module.secondary.di.components.SecondaryScreenComponent;
+import net.crosp.android.dagger2scopeinternals.module.shareddependencies.contract.GlobalEventNotifierContract;
+import net.crosp.android.dagger2scopeinternals.module.shareddependencies.implementation.SomeEvent;
+
+import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class SecondaryActivity extends BaseSingleFragmentActivity implements ProvidesComponent<SecondaryScreenComponent>, SecondaryFirstFragment.SecondFragmentRouter, SecondarySecondFragment.FirstFragmentRouter {
+public class SecondaryActivity extends BaseSingleFragmentActivity implements ProvidesComponent<SecondaryScreenComponent>, SecondaryFirstFragment.SecondFragmentRouter, SecondarySecondFragment.FirstFragmentRouter, GlobalEventNotifierContract.EventListener<SomeEvent> {
+    @Inject
+    GlobalEventNotifierContract<SomeEvent> mGlobalEventNotifier;
     // Views
     @BindView(R.id.toolbar_main)
     Toolbar mMainToolbar;
@@ -29,6 +35,7 @@ public class SecondaryActivity extends BaseSingleFragmentActivity implements Pro
         ButterKnife.bind(this);
         initUI();
         navigateToInitialScreen();
+        mGlobalEventNotifier.addListener(this);
     }
 
     private void initUI() {
@@ -90,6 +97,11 @@ public class SecondaryActivity extends BaseSingleFragmentActivity implements Pro
     @Override
     public SecondaryScreenComponent getComponent() {
         return mSecondaryScreenComponent;
+    }
+
+    @Override
+    public void onEvent(SomeEvent event) {
+
     }
 
     // Routing

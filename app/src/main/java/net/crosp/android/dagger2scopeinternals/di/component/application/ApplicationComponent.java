@@ -3,6 +3,7 @@ package net.crosp.android.dagger2scopeinternals.di.component.application;
 import net.crosp.android.dagger2scopeinternals.di.component.Dagger2ScopeInternalsApplication;
 import net.crosp.android.dagger2scopeinternals.di.component.activity.ActivityComponent;
 import net.crosp.android.dagger2scopeinternals.di.component.activity.module.ActivityModule;
+import net.crosp.android.dagger2scopeinternals.di.component.application.module.ApplicationScopedModule;
 import net.crosp.android.dagger2scopeinternals.di.component.application.module.ApplicationUnscopedModule;
 import net.crosp.android.dagger2scopeinternals.di.scope.PerApplication;
 
@@ -15,7 +16,7 @@ import dagger.Component;
  */
 @PerApplication
 @Component(modules = {
-        ApplicationUnscopedModule.class})
+        ApplicationUnscopedModule.class, ApplicationScopedModule.class})
 
 public interface ApplicationComponent {
     // Injection methods

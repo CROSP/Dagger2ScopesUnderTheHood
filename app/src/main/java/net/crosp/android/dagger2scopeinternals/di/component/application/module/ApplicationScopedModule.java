@@ -4,7 +4,12 @@ import android.app.Application;
 import android.content.Context;
 import android.content.res.Resources;
 
+import net.crosp.android.dagger2scopeinternals.di.component.Dagger2ScopeInternalsApplication;
 import net.crosp.android.dagger2scopeinternals.di.scope.PerApplication;
+import net.crosp.android.dagger2scopeinternals.module.shareddependencies.contract.CarPartsDataRepositoryContract;
+import net.crosp.android.dagger2scopeinternals.module.shareddependencies.contract.GlobalEventNotifierContract;
+import net.crosp.android.dagger2scopeinternals.module.shareddependencies.implementation.CarPartsDataRepository;
+import net.crosp.android.dagger2scopeinternals.module.shareddependencies.implementation.SomeEvent;
 
 import javax.inject.Named;
 
@@ -21,12 +26,18 @@ import static net.crosp.android.dagger2scopeinternals.di.NamedConstants.Environm
  */
 
 @Module
-public class ApplicationModule {
+public class ApplicationScopedModule {
 
-    Application mApplication;
+    Dagger2ScopeInternalsApplication mApplication;
 
-    public ApplicationModule(Application application) {
+    public ApplicationScopedModule(Dagger2ScopeInternalsApplication application) {
         mApplication = application;
+    }
+
+    @Provides
+    @PerApplication
+    CarPartsDataRepositoryContract provideCarPartsDataRepository() {
+        return new CarPartsDataRepository();
     }
 
     @Provides
@@ -39,6 +50,12 @@ public class ApplicationModule {
     @PerApplication
     Resources provideResources() {
         return this.mApplication.getResources();
+    }
+
+    @Provides
+    @PerApplication
+    GlobalEventNotifierContract<SomeEvent> provideEventNotifier() {
+        return this.mApplication;
     }
 
     @Provides

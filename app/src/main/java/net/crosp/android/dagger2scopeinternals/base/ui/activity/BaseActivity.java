@@ -63,6 +63,7 @@ public abstract class BaseActivity extends AppCompatActivity implements Activity
     private void initDependencyComponents() {
         ApplicationComponent appComponent = ((ProvidesComponent<ApplicationComponent>) getApplication()).getComponent();
         mActivityComponent = appComponent.plusActivityComponent(new ActivityModule(this));
+
     }
 
 /*    @Override
