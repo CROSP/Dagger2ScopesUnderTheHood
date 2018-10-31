@@ -43,7 +43,6 @@ public class MainActivity extends BaseSingleFragmentActivity implements Provides
         ButterKnife.bind(this);
         initUI();
         navigateToInitialScreen();
-        setEventListeners();
     }
 
     private void setEventListeners() {

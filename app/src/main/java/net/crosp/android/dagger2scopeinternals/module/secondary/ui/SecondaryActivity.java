@@ -35,7 +35,6 @@ public class SecondaryActivity extends BaseSingleFragmentActivity implements Pro
         ButterKnife.bind(this);
         initUI();
         navigateToInitialScreen();
-        mGlobalEventNotifier.addListener(this);
     }
 
     private void initUI() {
