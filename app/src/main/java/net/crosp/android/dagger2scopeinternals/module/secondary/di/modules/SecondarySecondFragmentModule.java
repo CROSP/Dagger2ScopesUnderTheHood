@@ -2,9 +2,12 @@ package net.crosp.android.dagger2scopeinternals.module.secondary.di.modules;
 
 import android.app.Activity;
 
-import net.crosp.android.dagger2scopeinternals.di.scope.PerFragment;
 import net.crosp.android.dagger2scopeinternals.module.secondary.ui.SecondaryActivity;
 import net.crosp.android.dagger2scopeinternals.module.secondary.ui.SecondarySecondFragment;
+import net.crosp.android.dagger2scopeinternals.module.shareddependencies.contract.CarPartsDataRepositoryContract;
+import net.crosp.android.dagger2scopeinternals.module.shareddependencies.implementation.CarPartsDataRepository;
+
+import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
@@ -17,8 +20,14 @@ import dagger.Provides;
 @Module
 public class SecondarySecondFragmentModule {
     @Provides
-    @PerFragment
+    @Singleton
     public SecondarySecondFragment.FirstFragmentRouter provideFirstFragmentRouter(Activity containerActivity) {
         return (SecondaryActivity) containerActivity;
+    }
+
+    @Provides
+    @Singleton
+    CarPartsDataRepositoryContract provideCarPartsDataRepository() {
+        return new CarPartsDataRepository();
     }
 }

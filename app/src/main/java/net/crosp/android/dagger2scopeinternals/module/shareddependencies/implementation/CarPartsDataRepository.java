@@ -1,6 +1,5 @@
 package net.crosp.android.dagger2scopeinternals.module.shareddependencies.implementation;
 
-import net.crosp.android.dagger2scopeinternals.module.shareddependencies.contract.CarDataRepositoryContract;
 import net.crosp.android.dagger2scopeinternals.module.shareddependencies.contract.CarPartsDataRepositoryContract;
 
 /**

@@ -34,11 +34,7 @@ public class ApplicationScopedModule {
         mApplication = application;
     }
 
-    @Provides
-    @PerApplication
-    CarPartsDataRepositoryContract provideCarPartsDataRepository() {
-        return new CarPartsDataRepository();
-    }
+
 
     @Provides
     @PerApplication

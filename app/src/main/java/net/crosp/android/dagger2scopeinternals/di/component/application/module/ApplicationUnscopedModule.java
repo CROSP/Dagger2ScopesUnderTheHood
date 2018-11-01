@@ -7,6 +7,7 @@ import net.crosp.android.dagger2scopeinternals.module.shareddependencies.contrac
 import net.crosp.android.dagger2scopeinternals.module.shareddependencies.implementation.CarDataRepository;
 
 import javax.inject.Named;
+import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;

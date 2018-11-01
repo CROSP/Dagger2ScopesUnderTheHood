@@ -2,15 +2,14 @@ package net.crosp.android.dagger2scopeinternals.module.secondary.ui;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.widget.Button;
 
 import net.crosp.android.dagger2scopeinternals.R;
 import net.crosp.android.dagger2scopeinternals.base.ui.fragment.BaseFragment;
 import net.crosp.android.dagger2scopeinternals.module.secondary.di.components.SecondaryScreenComponent;
+import net.crosp.android.dagger2scopeinternals.module.shareddependencies.contract.CarPartsDataRepositoryContract;
 
 import javax.inject.Inject;
 
-import butterknife.BindView;
 import butterknife.OnClick;
 
 /**
@@ -18,6 +17,8 @@ import butterknife.OnClick;
  */
 public class SecondarySecondFragment extends BaseFragment {
     // Callbacks
+    @Inject
+    CarPartsDataRepositoryContract mCarPartsDataRepository;
     @Inject
     FirstFragmentRouter mRouter;
 

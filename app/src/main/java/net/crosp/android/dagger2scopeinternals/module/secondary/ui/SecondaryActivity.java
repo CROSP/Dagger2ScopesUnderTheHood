@@ -9,6 +9,7 @@ import net.crosp.android.dagger2scopeinternals.base.ui.activity.BaseSingleFragme
 import net.crosp.android.dagger2scopeinternals.di.contract.ProvidesComponent;
 import net.crosp.android.dagger2scopeinternals.module.main.ui.MainActivity;
 import net.crosp.android.dagger2scopeinternals.module.secondary.di.components.SecondaryScreenComponent;
+import net.crosp.android.dagger2scopeinternals.module.shareddependencies.contract.CarDataRepositoryContract;
 import net.crosp.android.dagger2scopeinternals.module.shareddependencies.contract.GlobalEventNotifierContract;
 import net.crosp.android.dagger2scopeinternals.module.shareddependencies.implementation.SomeEvent;
 
@@ -21,6 +22,8 @@ public class SecondaryActivity extends BaseSingleFragmentActivity implements Pro
     @Inject
     GlobalEventNotifierContract<SomeEvent> mGlobalEventNotifier;
     // Views
+    @Inject
+    CarDataRepositoryContract mCarRepoOther;
     @BindView(R.id.toolbar_main)
     Toolbar mMainToolbar;
     // UI Variables
